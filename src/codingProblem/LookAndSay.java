@@ -4,10 +4,6 @@ import java.util.Scanner;
 
 public class LookAndSay {
 
-    public LookAndSay(int n){
-        int num = n;
-    }
-
     public static void main(String[] args) {
 
         String num = "";
@@ -15,7 +11,6 @@ public class LookAndSay {
         System.out.println("Inserisci una sequenza di numeri: ");
         num = in.nextLine();
         System.out.println("ecco: "+LookAndSay.counter(num));
-        System.out.println("Ciao");
 
 
     }
